@@ -5,21 +5,35 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hypotenuse</title>
+    <link href="style.css" rel="stylesheet" />
 </head>
 <body>
-    <nav>
-        <a href="istriangle.html">Is Triangle</a>
-        <a href="quiztri.html">Quiz</a>
-        <a href="hypotenuse.html">Length of Hypotenuse</a>
-        <a href="area.html">Area of Triangle</a>
-    </nav>
+    <nav class="navigation container">
+        <div class="nav-brand">Triangle</div>
+        <ul class="list-non-bullet nav-pills">
+            <li class="list-item-inline">
+                <a  class="link " href="istriangle.html">Is Triangle?</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="quiztri.html">Quiz</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link link-active" href="hypotenuse.html">Length of Hypotenuse</a>
+            </li>
+            <li class="list-item-inline">
+                <a class="link" href="area.html">Area of Triangle</a>
+            </li>
+        </ul>
+    </nav> 
+    <div class="container-center">
     <h1>Calculate Hypotenuse</h1>
-    <label>a = </label>
-    <input type="number" class="side-input"/>
-    <label>b = </label>
-    <input type="number" class="side-input"/>
+    <label >a => </label>
+    <input type="number" class="side-input dis"/>
+    <label >b => </label>
+    <input type="number" class="side-input dis"/>
     <button id="hypotenuse">Calulate Hypotenuse</button>
     <div id = "output"></div>
+    </div>
     <script src = "hypotenuse.js"></script>
 </body>
 </html>
