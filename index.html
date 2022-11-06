@@ -15,20 +15,20 @@
                 <a  class="link link-active" href="index.html">Is Triangle?</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="quiztri.html">Quiz</a>
+                <a class="link" href="quiztri.html" target="_blank">Quiz</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="hypotenuse.html">Length of Hypotenuse</a>
+                <a class="link" href="hypotenuse.html" target="_blank">Length of Hypotenuse</a>
             </li>
             <li class="list-item-inline">
-                <a class="link" href="area.html">Area of Triangle</a>
+                <a class="link" href="area.html" target="_blank">Area of Triangle</a>
             </li>
         </ul>
     </nav> 
     <div class="container-center">
     <h1>Is Triangle?</h1>
     <label for="angle1" class="dis">Angle 1</label>
-    <input type="number" class="angle-input dis"/>
+    <input type="number" class="angle-input dis" min="0" max="360" oninput="validity.valid||(value='');" />
     <label for="angle2" class="dis">Angle 2</label>
     <input type="number" class="angle-input dis"/>
     <label for="angle3" class="dis">Angle 3</label>
