@@ -1,40 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Area of Triangle</title>
     <link href="style.css" rel="stylesheet" />
-</head>
-<body>
+  </head>
+  <body>
     <nav class="navigation container">
-        <div class="nav-brand">Triangle</div>
-        <ul class="list-non-bullet nav-pills">
-            <li class="list-item-inline">
-                <a  class="link " href="index.html" target="_blank">Is Triangle?</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="quiztri.html" target="_blank">Quiz</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link" href="hypotenuse.html" target="_blank">Length of Hypotenuse</a>
-            </li>
-            <li class="list-item-inline">
-                <a class="link link-active" href="area.html">Area of Triangle</a>
-            </li>
-        </ul>
-    </nav> 
-    <div class="container-center">    
-    <h1>Area of triangle</h1>
-    <label for="base" class="dis">Base in cm</label>
-    <input type="number" class="side-input dis"/>
-    <label for="height" class="dis">Height in cm</label>
-    <input type="number" class="side-input dis"/>
-      
-    <button id="area-btn">Area of Triangle</button>
-    <div id="output"></div> 
-</div>
+      <div class="nav-brand">Triangle</div>
+      <ul class="list-non-bullet nav-pills">
+        <li class="list-item-inline">
+          <a class="link" href="index.html" target="_blank">Is Triangle?</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="quiztri.html" target="_blank">Quiz</a>
+        </li>
+        <li class="list-item-inline">
+          <a class="link" href="hypotenuse.html" target="_blank"
+            >Length of Hypotenuse</a
+          >
+        </li>
+        <li class="list-item-inline">
+          <a class="link link-active" href="area.html">Area of Triangle</a>
+        </li>
+      </ul>
+    </nav>
+    <div class="container-center">
+      <h1>Area of triangle</h1>
+      <label for="base" class="dis">Base in cm</label>
+      <input type="number" class="side-input dis" />
+      <label for="height" class="dis">Height in cm</label>
+      <input type="number" class="side-input dis" />
+
+      <button id="area-btn">Area of Triangle</button>
+      <p id="error"></p>
+      <div id="output"></div>
+    </div>
     <script src="area.js"></script>
-</body>
+  </body>
 </html>

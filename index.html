@@ -28,13 +28,14 @@
     <div class="container-center">
     <h1>Is Triangle?</h1>
     <label for="angle1" class="dis">Angle 1</label>
-    <input type="number" class="angle-input dis" min="0" max="360" oninput="validity.valid||(value='');" />
+    <input type="text" class="angle-input dis"  />
     <label for="angle2" class="dis">Angle 2</label>
-    <input type="number" class="angle-input dis"/>
+    <input type="text" class="angle-input dis"/>
     <label for="angle3" class="dis">Angle 3</label>
-    <input type="number" class="angle-input dis"/>  
+    <input type="text" class="angle-input dis"/>  
     <button id="is-triangle-btn">Is Triangle</button>
-    <div id="output"></div> 
+    <p id="error"></p>
+    <p id="output"></p> 
     </div>
     <script src="istriangle.js"></script>
 </body>
